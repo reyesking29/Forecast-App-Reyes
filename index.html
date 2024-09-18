@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <title>Weather App - Reyes</title>
+  </head>
+  <body>
+    <div class="weather-app">
+    <header>
+      <header>
+        <form class="search-form" id="search-form">
+        <input 
+        type="search" 
+        placeholder="Enter a city..." 
+        required class="search-form-input"
+        id="search-form-input"
+        />
+        <input type="submit" value="Search" class="search-form-button"/>
+        </form>
+      </header>
+    <main>
+      <div class="weather-app-data">
+    <div>
+      <h1 class="weather-app-city" id="city"></h1>
+    <p class="weather-app-details">
+      <span class="weather-time" id="time"></span>, <span id="description"></span>
+      <br />
+      Humidity: <strong id="humidity"></strong>, Wind: <strong id="wind-speed"></strong>
+    </p>
+    </div>
+    <div class="weather-app-temp-container">
+      <div id="icon"></div>
+      <div class="weather-app-temp-value" id="temperature"></div>
+      <div class="weather-app-temp-unit">°C</div>
+      </div>
+      </div>
+    <br />
+    </main>
+
+    <footer>
+      Coded by
+      <a href="https://www.instagram.com/robrey123/?img_index=3"> Robin Reyes</a
+      >, code hosted on
+      <a href="https://github.com/reyesking29/My-Weather-App---Reyes.git">
+        GitHub</a
+      >
+      and website built on
+      <a href="https://reyes-weather-app.netlify.app">Netlify</a>
+    </footer>
+  </div>
+  <script src="src/index.js"></script>
+  </body>
+</html>

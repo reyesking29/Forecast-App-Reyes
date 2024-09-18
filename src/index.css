@@ -1,0 +1,81 @@
+body {
+  background-color: gainsboro;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+header {
+  border-bottom: 1px solid gainsboro;
+  padding: 0 0 30px;
+}
+.weather-app {
+  background-color: white;
+  max-width: 600px;
+  margin: 45px auot;
+  box-shadow: 0 30px 50px black;
+  padding: 30px;
+  border-radius: 10px;
+}
+.search-form-input {
+  background-color: gainsboro;
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+  padding: 15px;
+  font-size: 16px;
+}
+.search-form-button {
+  background-color: cornflowerblue;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  margin-left: 5px;
+  font-size: 16px;
+}
+main {
+  padding: 30px 0;
+}
+.weather-app-city {
+  margin: 0;
+  font-size: 30px;
+  line-height: 48px;
+}
+.weather-app-details {
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(188, 129, 243);
+}
+.weather-app-details strong {
+  color: rgb(250, 86, 220);
+}
+.weather-time {
+  color: rgb(250, 86, 220);
+  font-weight: bold;
+}
+.weather-app-temp-container {
+  display: flex;
+}
+.weather-app-icon {
+  width: 88px;
+  height: 88px;
+}
+.weather-app-temp-value {
+  font-size: 88px;
+  line-height: 88px;
+  font-weight: bold;
+}
+.weather-app-temp-unit {
+  margin-top: 20px;
+  font-size: 28px;
+}
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  border-top: 1px solid gainsboro;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.6);
+}
